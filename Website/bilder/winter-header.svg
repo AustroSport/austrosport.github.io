@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" role="img" aria-label="Winterlandschaft mit Skifahrer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b5c97"/>
+      <stop offset="0.6" stop-color="#8fc1ea"/>
+      <stop offset="1" stop-color="#e3f1fb"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7e8f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="600" fill="url(#sky)"/>
+  <circle cx="1280" cy="120" r="46" fill="#fff6d6" opacity="0.95"/>
+  <circle cx="1280" cy="120" r="70" fill="#fff6d6" opacity="0.25"/>
+
+  <!-- far mountains -->
+  <path d="M0 400 L180 220 L300 320 L470 150 L650 330 L800 230 L980 360 L1160 200 L1340 330 L1480 250 L1600 340 L1600 600 L0 600 Z" fill="#9db8d6"/>
+  <path d="M470 150 L420 205 L450 195 L470 215 L495 190 L520 205 Z" fill="#fff"/>
+  <path d="M1160 200 L1110 255 L1140 245 L1160 265 L1185 240 L1210 255 Z" fill="#fff"/>
+  <path d="M180 220 L140 262 L170 255 L190 270 L215 250 Z" fill="#fff"/>
+
+  <!-- near mountains -->
+  <path d="M0 470 L220 330 L400 440 L620 300 L860 450 L1060 340 L1280 460 L1450 380 L1600 460 L1600 600 L0 600 Z" fill="#6f93bb"/>
+  <path d="M620 300 L575 345 L605 338 L625 355 L650 335 L672 348 Z" fill="#fff"/>
+  <path d="M1060 340 L1020 378 L1048 372 L1065 386 L1088 368 Z" fill="#fff"/>
+
+  <!-- slope -->
+  <path d="M0 520 C300 500 500 420 800 440 C1100 460 1300 500 1600 470 L1600 600 L0 600 Z" fill="url(#snow)"/>
+  <path d="M0 560 C400 540 700 520 1000 540 C1300 560 1450 540 1600 550 L1600 600 L0 600 Z" fill="#ffffff"/>
+
+  <!-- pines -->
+  <g fill="#1f4d3a">
+    <g transform="translate(120 470)"><path d="M0 -90 L28 -45 L14 -45 L38 -10 L-38 -10 L-14 -45 L-28 -45 Z"/><rect x="-5" y="-10" width="10" height="24" fill="#5a3a22"/></g>
+    <g transform="translate(200 490) scale(0.8)"><path d="M0 -90 L28 -45 L14 -45 L38 -10 L-38 -10 L-14 -45 L-28 -45 Z"/><rect x="-5" y="-10" width="10" height="24" fill="#5a3a22"/></g>
+    <g transform="translate(1400 480) scale(1.1)"><path d="M0 -90 L28 -45 L14 -45 L38 -10 L-38 -10 L-14 -45 L-28 -45 Z"/><rect x="-5" y="-10" width="10" height="24" fill="#5a3a22"/></g>
+    <g transform="translate(1490 500) scale(0.85)"><path d="M0 -90 L28 -45 L14 -45 L38 -10 L-38 -10 L-14 -45 L-28 -45 Z"/><rect x="-5" y="-10" width="10" height="24" fill="#5a3a22"/></g>
+  </g>
+  <!-- snow on pines -->
+  <g fill="#fff" opacity="0.9">
+    <path d="M120 380 L134 405 L106 405 Z"/>
+    <path d="M1400 381 L1415 407 L1385 407 Z"/>
+  </g>
+
+  <!-- skier -->
+  <g transform="translate(820 452) rotate(14)">
+    <line x1="-70" y1="52" x2="75" y2="42" stroke="#d94f3d" stroke-width="7" stroke-linecap="round"/>
+    <line x1="-8" y1="-18" x2="-14" y2="34" stroke="#2a3d66" stroke-width="12" stroke-linecap="round"/>
+    <line x1="6" y1="-18" x2="22" y2="32" stroke="#2a3d66" stroke-width="12" stroke-linecap="round"/>
+    <path d="M-12 -70 L16 -70 L12 -14 L-16 -14 Z" fill="#e8563f"/>
+    <line x1="14" y1="-62" x2="52" y2="-30" stroke="#e8563f" stroke-width="9" stroke-linecap="round"/>
+    <line x1="-14" y1="-62" x2="-48" y2="-36" stroke="#e8563f" stroke-width="9" stroke-linecap="round"/>
+    <line x1="52" y1="-30" x2="68" y2="44" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-48" y1="-36" x2="-66" y2="40" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="2" cy="-86" r="15" fill="#f1c9a5"/>
+    <path d="M-14 -90 A16 16 0 0 1 18 -90 L18 -86 L-14 -86 Z" fill="#2a3d66"/>
+    <rect x="2" y="-92" width="16" height="8" rx="3" fill="#bfe3f7"/>
+  </g>
+  <!-- snow spray -->
+  <g fill="#fff" opacity="0.8">
+    <circle cx="760" cy="505" r="6"/><circle cx="738" cy="512" r="4"/><circle cx="716" cy="518" r="3"/><circle cx="780" cy="515" r="3"/>
+  </g>
+
+  <!-- snowfall -->
+  <g fill="#fff" opacity="0.85">
+    <circle cx="90" cy="80" r="3"/><circle cx="260" cy="150" r="2.5"/><circle cx="410" cy="60" r="3"/>
+    <circle cx="560" cy="130" r="2"/><circle cx="700" cy="70" r="3"/><circle cx="930" cy="110" r="2.5"/>
+    <circle cx="1080" cy="50" r="3"/><circle cx="1210" cy="190" r="2"/><circle cx="1420" cy="90" r="3"/>
+    <circle cx="1540" cy="170" r="2.5"/><circle cx="330" cy="260" r="2"/><circle cx="1000" cy="270" r="2"/>
+  </g>
+</svg>
